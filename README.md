@@ -48,7 +48,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10
 ```
-![Top Paying Roles](assets\chart_1.png)
+![Top Paying Roles](assets/chart_1.png)
 *Skills for top-paying jobs chart generated from Python in VS Code*
 ### 2. Skills for Top Paying Jobs
 ```sql
@@ -79,7 +79,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC
 ```
-![Top Paying Roles](assets\chart_2.png)
+![Top Paying Roles](assets/chart_2.png)
 *Skills for top-paying jobs chart generated from Python in VS Code*
 ### 3. In-Demand Skills for Data Analysts
 ```sql
