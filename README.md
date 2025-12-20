@@ -49,7 +49,7 @@ ORDER BY
 LIMIT 10
 ```
 ![Top Paying Roles](assets/chart_1.png)
-*Skills for top-paying jobs chart generated from Python in VS Code*
+*Top-paying job titles chart generated from Python in VS Code*
 ### 2. Skills for Top Paying Jobs
 ```sql
 WITH top_paying_jobs AS (
